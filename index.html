@@ -3,33 +3,53 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
 	<title>Brand-city-final</title>
 </head>
 
-
-
-
 <body>
- 	<header>
- 		<div class="header-wraper">
+
+ 	<header class="main-header">
+
+ 		<section class="header-wraper">
  			<div class="main-logo-container">
  				<img src="images/main-logo.png">
  			</div>
- 			<div class="main-menu">
- 				<div class="hamburger"></div>
+ 			<div class="hamburger-item">
+ 				<img src="images/menu-hamburger.png">
  			</div>
- 		</div>
- 		<div class="under-hamburger-wraper">
- 			<div class="menu-items-container">
- 				<i class="fa fa-phone" aria-hidden="true"></i>
- 				<i class="fa fa-eur" aria-hidden="true"></i>
-
-
+ 		</section>
+ 		<section class="under-hamburger-section"> <!-- Jāpieraksta klase "active" lai parādītos apakšējā daļa -->
+ 			<div class="under-hamburger-wraper">
+ 				<span class="menu-items"><img src="images/phone-icon.png" alt="phone-icon"></span>
+ 				<span class="menu-items">EN</span>
+ 				<span class="menu-items">€</span>
+ 				<span class="menu-items">My Booking</span>
  			</div>
-
- 		</div>
+ 		</section>
  	</header>
+
+
+ 	<section class="hero">
+ 		<div class="hero-content-conteiner">
+ 			<div class="hero-title-container">
+ 				<h2>Rent cars with AVIS in Milan</h2>
+ 				<h3>Millions of people set off on vacation every day. We help them pick up their flights and accommodation cheaply, easily and fast.</h3>
+ 			</div>
+
+
+ 						<!-- Izvēlnes konteiners - flexbox -->
+
+ 		<div class="hero-menu-backgound">					
+ 			<div class="hero-menu-flexbox">
+ 				<input class="flexbox-item" type="text" name="search">
+ 				<div class="avis-logo-item flexbox-item"></div>
+ 				<div class="from-date-item flexbox-item"></div>
+ 				<div class="to-date-item flexbox-item"></div>
+ 				<button class="flexbox-item">Show Prices</button>
+ 			</div>
+ 		</div>
+ 	</section>
+ 		
 
 
 
