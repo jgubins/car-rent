@@ -1,0 +1,23 @@
+﻿.top-locations-section{
+	background-color: #efe3c5;
+}
+.top-locations-header h3{
+	color: black;
+	margin: 0;
+	padding: 30px;
+}
+.top-locations-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.top-location-item{
+	margin: 5px;
+	color: #8d6a16;
+	text-decoration: none;
+}
+.top-location-item:hover{
+	color: #c88f06;
+}
