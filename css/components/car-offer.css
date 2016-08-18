@@ -7,18 +7,87 @@
 	padding: 30px;
 }
 .car-offer-carousel{
-	/*height: 320px;*/
+	height: 320px;
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
+	overflow: hidden;
+	width: 90%;
+	margin: auto;
 	justify-content: center;
+	position: relative;
+}
+.car-offer-carousel::after{
+	content: "";
+	background-image: url("../../images/next-arrow.png");
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 90px;
+	position: absolute;
+	top: 115px;
+	right: 0;
+}
+.car-offer-carousel::before{
+	content: "";
+	background-image: url("../../images/before-arrow.png");
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 90px;
+	position: absolute;
+	top: 115px;
+	left: 0;
 }
 .flex-carousel-item{
-	background-color: gray;
-	width: 200px;
-	height: 270px;
-	margin: 1px;
+	width: 210px;
+	height: 320px;
 }
+.flex-carousel-item:hover{
+	background-color: lightgray;
+}
+.flex-carousel-item h5{
+	text-align: center;
+}
+.flex-carousel-item img{
+	display: block;
+	margin: auto;
+}
+.car-price-tag{
+	font-size: 30px;
+	color: #444444;
+	text-align: center;
+	margin: 10px 0;
+}
+.flex-carousel-item button{
+	padding: 10px 50px;
+	display: block;
+	margin: auto;
+	border-radius: 4px;
+	background-color: #0073b5;
+	border: none;
+	font-weight: bolder;
+	color: white;
+}
+.flex-carousel-item button:hover{
+	background-color: #f2a622;
+}
+.car-location{
+	color: #444444;
+	font-size: 14px;
+	text-align: center;
+	margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .audi{
 
 }
