@@ -1,0 +1,30 @@
+.avis-other-cities{
+	background-color: #f6f6f6;
+}
+.other-cites-header{
+	max-width: 960px;
+	min-width: 320px;
+	margin: auto;
+	border-bottom: solid 2px #dddddd;
+}
+.other-cites-header h2{
+	font-size: 18px;
+	margin: 0;
+	padding: 15px 0 10px 0;
+}
+.other-cities-content{
+	max-width: 960px;
+	min-width: 320px;
+	height: 200px;
+	overflow: hidden;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: lightblue;
+}
+.other-cities-content ul{
+	list-style-type: none;
+	padding: 5px;
+	font-family: open sans;
+}

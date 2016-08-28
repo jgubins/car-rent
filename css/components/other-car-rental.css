@@ -1,0 +1,44 @@
+.other-car-rental{
+	background-color: #d8e9f2;
+}
+.other-rental-header{
+	max-width: 960px;
+	min-width: 320px;
+	margin: auto;
+	text-align: center;
+}
+.other-rental-header h2{
+	font-size: 18px;
+	color: #1a5880;
+	margin: 0;
+	padding: 15px 0;
+	font-family: open sans;
+}
+.other-rental-content{
+	max-width: 960px;
+	min-width: 320px;
+	height: 160px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+.rental-flex-item{
+	width: 120px;
+	/*background-color: green;*/
+	margin:0 8px 25px 8px;
+}
+.rental-flex-item svg{
+	width: 95px;
+	fill: blue;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+.rental-flex-item svg text{
+	font-size: 60px;
+	text-anchor: middle;
+}
